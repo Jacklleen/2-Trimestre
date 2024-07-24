@@ -10,9 +10,9 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
-    fonte-family: var(--fonte-principal);
-    fonte-size: 16px;
-    fonte-weight: 400;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 * {
@@ -30,16 +30,16 @@ body{
 
 .container {
     height: 100vh;
-    display: grid
+    display: grid;
     grid-template-columns: 50% 50%;
 }
 
 .container__botao {
     background-color: var(--botao-azul);
-    bosder-radius: 5px;
+    border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
-    dispaly: block;
+    display: block;
     text-decoration: none;
     margin-bottom: 1em;
 }
